@@ -1,0 +1,9 @@
+Package: activate-ditto
+Version: 1.0.0
+Architecture: all
+Maintainer: Nicola Danese
+Depends: bash, xdotool
+Homepage: github.com/darkfrank-it/activate-ditto
+Description: Script to activate Ditto pressing hotkey when installed under winehq.
+Priority: optional
+Section: Utility

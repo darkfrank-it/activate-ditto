@@ -1,0 +1,20 @@
+#!/bin/bash
+# file name make-package
+# Make .deb package
+
+if [ $# -ne 2 ]; then
+        echo "please specify version and revision"
+		exit 1
+fi
+
+DIR="activate-ditto_$1-$2_all"
+
+mkdir $DIR
+cp -r DEBIAN $DIR
+cp -r usr $DIR
+
+#chown -R root:root $DIR
+
+dpkg-deb --build --root-owner-group $DIR
+
+rm -rf $DIR
