@@ -4,7 +4,7 @@ Script to activate [Ditto](https://ditto-cp.sourceforge.io/) when installed unde
 ## Installation 
 Root or sudo permission is needed to install this package.
 
-After install Ditto under Wine, go to "Options" then "Keyboard Shortcuts" and set in the field "Activate Ditto" the value "Control + \".
+After install Ditto under Wine, go to "Options" then "Keyboard Shortcuts" and set in the field "Activate Ditto" the value "Control + \\".
 
 Then install this package with this command:
 
